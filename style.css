@@ -78,3 +78,39 @@ nav ul {
 .banner-text p {
 	font-size: 24px;
 }
+
+.heading {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.feature {
+	background-color: #f4f4f4;
+	padding: 15px;
+	border-radius: 8px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.feature h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.feature p {
+	color: #666;
+	font-size: 14px;
+}
+
+.features {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+}
+.feature {
+	width: 30%;
+	border: 1px solid #ccc;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
