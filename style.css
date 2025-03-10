@@ -104,19 +104,21 @@ nav ul {
 	display: flex;
 	margin-bottom: 20px;
 	background-color: #e6e6e6;
+	width: 100%;
+	
+	align-items: center;
+	justify-content: center;
 }
 
-.product-info {
-	padding: 40px;
+.product-info, .product-image {
+	padding: 20px;
 	flex: 1;
-}
-
-.product-image {
-	flex: 1;
+	
 }
 
 .product-image img {
 	max-width: 100%;
+	height: auto;
 }
 
 .product.reverse {
