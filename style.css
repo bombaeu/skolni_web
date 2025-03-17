@@ -151,3 +151,12 @@ nav ul {
 	font-size: 14px;
 }
 
+.contact {
+    display: flex;
+    background-color: #e6e6e6;
+}
+
+.contact-box {
+    flex: 1;
+    padding: 20px 40px;
+}
